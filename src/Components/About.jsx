@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import AboutImage from '/home/wafiq/Documents/personal/portfolio/src/assets/About.jpg'; // Adjust the path relative to your component location
+import AboutImage from '/src/assets/About.jpg'; // Adjust the path relative to your component location
 import './About.css'; // Import your CSS file for custom styles
 
 const About = () => {
