@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { AiOutlineProject, AiOutlineShoppingCart } from 'react-icons/ai'; // Example icons from react-icons
-import { FaFilm, FaReact, FaPython, FaCss3Alt, FaJsSquare } from 'react-icons/fa'; // Additional example icons
+import { AiOutlineProject, AiOutlineShoppingCart } from 'react-icons/ai'; 
+import { FaFilm, FaReact, FaPython, FaCss3Alt, FaJsSquare } from 'react-icons/fa'; 
+
+import project1Image from '../assets/Project1.png';
+import project2Image from '../assets/Project2.png';
 
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
@@ -9,7 +12,7 @@ const Projects = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setHoveredIndex((prevIndex) => (prevIndex + 1) % projectData.length);
-    }, 3000); // Adjust the interval time as needed (in milliseconds)
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -17,7 +20,7 @@ const Projects = () => {
   const projectData = [
     {
       id: 1,
-      imageUrl: 'src/assets/Project1.png',
+      imageUrl: project1Image,
       description: 'A project created with React, JavaScript, and CSS to give a user a view of how an e-commerce website looks like and its features.',
       projectLink: 'https://thunderous-mooncake-2633c1.netlify.app/',
       icon: <AiOutlineShoppingCart />,
@@ -25,7 +28,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      imageUrl: 'src/assets/Project2.png',
+      imageUrl: project2Image,
       description: 'A project created with React, JavaScript, CSS, and FastAPI to give a user an experience of how a movie watchlist functions.',
       projectLink: 'https://flonnect.com/video/10f9c4ebd376-44a8-90a1-ad3ebbfb4e51',
       icon: <FaFilm />,
@@ -46,10 +49,9 @@ const Projects = () => {
             animation: shimmer 2s infinite;
           }
 
-          /* Updated button styles */
           button {
-            background-color: #87ceeb; /* Light blue color */
-            color: white; /* Text color */
+            background-color: #87ceeb;
+            color: white;
             border-radius: 10em;
             font-size: 17px;
             font-weight: 600;
@@ -76,7 +78,7 @@ const Projects = () => {
 
           .tech-icon:hover {
             transform: scale(1.2);
-            color: #87ceeb; /* Change to desired hover color */
+            color: #87ceeb;
           }
         `}
       </style>
@@ -106,11 +108,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white rounded-md shadow-lg overflow-hidden relative block"
-              initial={{ opacity: 0, scale: 0.9, y: 20, x: 0 }} // Initial position with slight y offset
-              animate={{ opacity: 1, scale: 1, y: [0, -10, 0, 10, 0], x: [0, 10, 0, -10, 0] }} // Move around within a range
-              transition={{ duration: 4, y: { duration: 2, yoyo: Infinity, ease: 'easeInOut' }, x: { duration: 3, yoyo: Infinity, ease: 'easeInOut' } }} // Adjust duration and easing as needed
-              whileHover={{ scale: 1.05, y: -10 }} // Zoom in and lift slightly on hover
-              whileTap={{ scale: 0.95 }} // Added whileTap animation
+              initial={{ opacity: 0, scale: 0.9, y: 20, x: 0 }}
+              animate={{ opacity: 1, scale: 1, y: [0, -10, 0, 10, 0], x: [0, 10, 0, -10, 0] }}
+              transition={{ duration: 4, y: { duration: 2, yoyo: Infinity, ease: 'easeInOut' }, x: { duration: 3, yoyo: Infinity, ease: 'easeInOut' } }}
+              whileHover={{ scale: 1.05, y: -10 }}
+              whileTap={{ scale: 0.95 }}
               style={{
                 boxShadow: hoveredIndex === index ? '0 0 20px rgba(255, 255, 255, 0.5)' : 'none',
                 transition: 'box-shadow 0.3s',
@@ -145,7 +147,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <motion.button
-                  whileTap={{ scale: 0.95 }} // Added whileTap animation for the button
+                  whileTap={{ scale: 0.95 }}
                   className="button"
                 >
                   Press Me
