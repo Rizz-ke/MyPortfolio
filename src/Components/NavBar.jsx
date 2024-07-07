@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import { AiOutlineHome, AiOutlineUser, AiOutlineAppstore, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
-import Logo from '/home/wafiq/Documents/personal/portfolio/src/assets/Logo.png'; // Replace with your actual logo path
+import Logo from '/src/assets/Logo.png'; // Replace with your actual logo path
 import './Nav.css'; // Import your CSS file
 
 const Nav = () => {
