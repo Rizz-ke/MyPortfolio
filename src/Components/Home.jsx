@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import HeroImage from '/home/wafiq/Documents/personal/portfolio/src/assets/Hero.jpg'; // Replace with your actual image path
+import HeroImage from '/src/assets/Hero.jpg'; // Replace with your actual image path
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
