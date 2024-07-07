@@ -72,15 +72,15 @@ const Services = () => {
               </motion.div>
               {/* Video icons */}
               <div className="flex justify-center space-x-4 mt-4">
-                <a href="/assets/Video1.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/src/assets/Video1.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <FaVideo className="text-5xl text-red-600 hover:text-red-500 cursor-pointer" />
                   <AiFillPlayCircle className="text-6xl ml-2 text-red-400 hover:text-red-300" /> {/* Fancier play icon */}
                 </a>
-                <a href="/assets/Video3.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/src/assets/Video3.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <FaVideo className="text-5xl text-red-600 hover:text-red-500 cursor-pointer" />
                   <AiFillPlayCircle className="text-6xl ml-2 text-red-400 hover:text-red-300" /> {/* Fancier play icon */}
                 </a>
-                <a href="/assets/Video2.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/src/assets/Video2.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <FaVideo className="text-5xl text-red-600 hover:text-red-500 cursor-pointer" />
                   <AiFillPlayCircle className="text-6xl ml-2 text-red-400 hover:text-red-300" /> {/* Fancier play icon */}
                 </a>
@@ -121,15 +121,15 @@ const Services = () => {
               </motion.div>
               {/* Video icons */}
               <div className="flex justify-center space-x-4 mt-4">
-                <a href="/assets/Video3.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/src/assets/Video3.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <FaVideo className="text-5xl text-red-600 hover:text-red-500 cursor-pointer" />
                   <AiFillPlayCircle className="text-6xl ml-2 text-red-400 hover:text-red-300" /> {/* Fancier play icon */}
                 </a>
-                <a href="/assets/Video2.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/src/assets/Video2.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <FaVideo className="text-5xl text-red-600 hover:text-red-500 cursor-pointer" />
                   <AiFillPlayCircle className="text-6xl ml-2 text-red-400 hover:text-red-300" /> {/* Fancier play icon */}
                 </a>
-                <a href="/assets/Video1.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/src/assets/Video1.mp4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <FaVideo className="text-5xl text-red-600 hover:text-red-500 cursor-pointer" />
                   <AiFillPlayCircle className="text-6xl ml-2 text-red-400 hover:text-red-300" /> {/* Fancier play icon */}
                 </a>
