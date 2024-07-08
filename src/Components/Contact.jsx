@@ -77,7 +77,7 @@ const socialMediaLinks = [
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/in/wafiq-mohamed-0b6465305/',
     icon: <FaLinkedin size={24} />,
-    image: '/src/assets/Linkedin.jpeg',
+    image: 'https://media.licdn.com/dms/image/D4D03AQFsSaBNmdR82A/profile-displayphoto-shrink_800_800/0/1713760144465?e=1726099200&v=beta&t=TkqOliUMq2RP9ZavAORv1IA9QPYbdgflIELW-xF9wfg',
   },
   {
     name: 'Twitter',
