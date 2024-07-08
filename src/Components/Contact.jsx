@@ -77,7 +77,7 @@ const socialMediaLinks = [
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/in/wafiq-mohamed-0b6465305/',
     icon: <FaLinkedin size={24} />,
-    image: 'src/assets/Linkedin.jpeg',
+    image: '/src/assets/Linkedin.jpeg',
   },
   {
     name: 'Twitter',
